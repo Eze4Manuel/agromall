@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
  
 app.get('/v1/api', (req, res) => {
-  res.send("Responding with Message")
+  res.send("Responding with Messages informing the world of the changes we have masde to the repo")
 });
 
 // app.use('/v1/api/admin', adminRoutes(app)); 
